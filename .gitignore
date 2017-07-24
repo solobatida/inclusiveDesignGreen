@@ -2,5 +2,5 @@ node_modules
 .DS_STORE
 coverage
 *.css
-!reset-2.0-solution.css
+!reset-2.0.css
 npm-debug.log*
