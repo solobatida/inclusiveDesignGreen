@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+.shoppingcart {
+  &__base {
+    background-color: $c-secondary-dark;
+    padding: 20px;
+    width: 100%;
+
+    @media (min-width: $breakpoint-large-px) {
+      width: 40%;
+    }
+  }
+
+  &__shippingInfo {
+    margin-top: $vertical-rythm-spacing-text;
+    text-align: left;
+    font-style: italic;
+  }
+
+  &__form {
+    margin-top: $vertical-rythm-spacing-text;
+  }
+
+  &__cartIsEmptyMessage {
+    padding-top: $vertical-rythm-spacing-text;
+  }
+
+  &__listings {
+    &Headline {
+      border-bottom: 1px dashed $c-secondary-darker;
+      padding-right: $vertical-rythm-spacing-text;
+      font-weight: $font-weight-regular;
+      color: $c-primary;
+      font-size: $font-size-table-header;
+      text-align: left;
+
+      &:last-child {
+        text-align: right;
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__state {
+    width: 100%;
+    border-bottom: 1px dashed $c-secondary-darker;
+  }
+
+  &__listing {
+    border-bottom: 1px solid $c-secondary-darker;
+
+    &Detail {
+      padding-right: 10px;
+      padding-top: $vertical-rythm-spacing-text;
+      padding-bottom: $vertical-rythm-spacing-text;
+      vertical-align: baseline;
+
+      &:last-child {
+        text-align: right;
+        padding-right: 0;
+      }
+    }
+
+    &Name,
+    &Price {
+      font-weight: $font-weight-bold;
+    }
+
+    &Description {
+      padding-top: $vertical-rythm-spacing-text;
+    }
+
+    &Quantity {
+      width: 30px;
+    }
+
+    &Action {
+      display: inline-block;
+    }
+
+    &Change {
+      @include cart-button;
+
+      padding: 4px 9px;
+    }
+  }
+
+  &__summary {
+    text-align: right;
+    padding-bottom: $vertical-rythm-spacing-text;
+
+    &Item {
+      padding-top: $vertical-rythm-spacing-text;
+
+      &Total {
+        margin-top: $vertical-rythm-spacing-text;
+        border-top: 1px solid $c-secondary-darker;
+      }
+    }
+
+    &Label {
+        font-style: italic;
+    }
+
+    &Output {
+        min-width: 75px;
+        display: inline-block;
+        font-weight: $font-weight-bold;
+    }
+  }
+
+  &__priceAfterVAT {
+    color: $c-primary;
+    font-size: $font-size-final-output;
+  }
+
+  &__checkout {
+    @include cart-button;
+  }
+
+  &__finalActions {
+    padding-top: $horizontal-rythm-spacing-text;
+  }
+
+  &__footer {
+    text-align: right;
+  }
+
+  &__actions {
+    padding-top: $vertical-rythm-spacing-text;
+  }
+
+  &__action {
+    @include text-button;
+
+    &::after {
+      content: ' | ';
+      padding-right: 5px;
+    }
+
+    &:last-child::after {
+      content: '';
+    }
+  }
+}

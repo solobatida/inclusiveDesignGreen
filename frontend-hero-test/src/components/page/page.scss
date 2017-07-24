@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page {
+  &__base {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+    @media (min-width: $breakpoint-large-px) {
+      flex-direction: row;
+    }
+  }
+
+  &__component {
+    margin-top: $vertical-rythm-spacing-component;
+
+    &Headline {
+      font-size: $font-size-headline-component;
+      font-weight: $font-weight-regular;
+      color: $c-primary;
+
+      @media (min-width: $breakpoint-large-px) {
+        font-size: $font-size-headline-component-large;
+      }
+    }
+  }
+
+  &__link {
+    color: $c-primary;
+
+    &:visited,
+    &:active {
+      color: $c-primary;
+    }
+  }
+}

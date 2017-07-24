@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.shop {
+  &__base {
+    width: 100%;
+
+    @media (min-width: $breakpoint-large-px) {
+      width: 58%;
+    }
+  }
+
+  &__greeting {
+    padding-top: $vertical-rythm-spacing-text;
+    padding-bottom: $vertical-rythm-spacing-text;
+  }
+
+  &__listings {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $breakpoint-large-px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+  }
+
+  &__footnote {
+    vertical-align: super;
+    font-size: small;
+  }
+
+  &__listing {
+    position: relative;
+    margin-top: $vertical-rythm-spacing-text;
+    vertical-align: top;
+    padding: $vertical-rythm-spacing-text;
+    border: 1px dashed $c-secondary-darker;
+    cursor: default;
+
+    @media (min-width: $breakpoint-large-px) {
+      flex: 1 49%;
+      max-width: 49%;
+    }
+
+    &Details {
+      margin-bottom: 30px;
+    }
+
+    &Footer {
+      width: calc(100% - 20px);
+      position: absolute;
+      bottom: $vertical-rythm-spacing-text;
+    }
+
+    &Name {
+      font-weight: $font-weight-bold;
+    }
+
+    &Description {
+      padding-top: $vertical-rythm-spacing-text;
+    }
+
+    &Price {
+      float: right;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  &__action {
+    @include text-button;
+  }
+}

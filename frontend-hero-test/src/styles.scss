@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import 'libs-polyfills/reset-2.0';
+@import 'themes/netcentric/netcentric';
+@import 'components/menu/menu';
+@import 'components/footer/footer';
+@import 'components/header/header';
+@import 'components/shoppingcart/shoppingcart';
+@import 'components/page/page';
+@import 'components/shop/shop';
+
+// - resetting necessary tag styles after Meyer's reset
+strong {
+  font-weight: bold;
+}
+
+abbr {
+  border-bottom: 1px dotted $c-secondary-darker;
+}

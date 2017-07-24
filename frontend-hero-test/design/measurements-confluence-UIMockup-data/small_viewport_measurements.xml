@@ -1,0 +1,82 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="884" measuredH="1923" mockupW="869" mockupH="1915">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="15" y="8" w="562" h="1915" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttps%3A//www.netcentric.biz</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="17" y="79" w="25" h="279" measuredW="25" measuredH="279" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="25" h="279" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="10">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="5" y="112" w="20" h="-1" measuredW="20" measuredH="36" zOrder="1" locked="false" isInGroup="10">
+          <controlProperties>
+            <color>16777215</color>
+            <size>12</size>
+            <text>280px</text>
+            <textOrientation>up</textOrientation>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="__group__" x="500" y="205" w="384" h="45" measuredW="384" measuredH="45" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="7" w="102" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="11">
+          <controlProperties>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="109" y="0" w="275" h="45" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="11">
+          <controlProperties>
+            <color>13576743</color>
+            <text>size%3A%20%24font-size-headline-primary%0Aweight%3A%20%24font-weight-bolder</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="586" y="619" w="258" h="247" measuredW="258" measuredH="247" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="258" h="247" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="21" y="15" w="222" h="232" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="12">
+          <controlProperties>
+            <align>center</align>
+            <color>16777215</color>
+            <size>32</size>
+            <text>All%20other%20measurements%0Aare%20inherited%0Afrom%20the%0Alarge%20viewport%20version</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="__group__" x="155" y="449" w="643" h="20" measuredW="643" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="5" w="430" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="13">
+          <controlProperties>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="445" y="0" w="-1" h="-1" measuredW="198" measuredH="20" zOrder="1" locked="false" isInGroup="13">
+          <controlProperties>
+            <color>13576743</color>
+            <size>12</size>
+            <text>size%3A%20%24font-size-headline-component</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="17" y="79" w="-1" h="-1" measuredW="558" measuredH="1842" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>https%3A//projects.netcentric.biz/wiki/download/attachments/82706720/mockup_small_viewport.png%3Fversion%3D1%26modificationDate%3D1487414665000%26api%3Dv2</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
