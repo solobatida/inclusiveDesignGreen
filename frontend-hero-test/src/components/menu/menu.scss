@@ -18,8 +18,9 @@
       position: absolute;
       left: 0;
       top: 100%;
-      visibility: hidden;
-      opacity: 0;
+      display: none;
+      //visibility: hidden;
+      //opacity: 0;
 
       .menu__items {
         left: 100%;

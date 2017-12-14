@@ -1,0 +1,15 @@
+{
+  "name": "a11y-inclusive-design-green-badge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@source.int.netcentric.biz:7999/~garance.vallat/a11y-inclusive-design-green-badge.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

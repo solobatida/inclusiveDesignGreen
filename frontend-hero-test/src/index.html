@@ -20,32 +20,32 @@
       </h1>
     </div>
 </div>
-<div class="menu__base">
-  <ul class="menu__items">
-    <li class="menu__item">
-      <a href="">Netcentric Offices</a>
-      <ul class="menu__items">
-        <li class="menu__item">
+<nav class="menu__base">
+  <ul class="menu__items menu__principal" role="menu">
+    <li class="menu__item" role="menuitem">
+      <a href="#" aria-expanded="false" data-group="menu_country" onclick="document.getElementById('menu_country').style.display='block'" aria-controls="menu_country">Netcentric Offices</a>
+      <ul class="menu__items" role="menu" id="menu_country">
+        <li class="menu__item" role="menuitem">
           <a href="">Europe</a>
         </li>
-        <li class="menu__item">
+        <li class="menu__item" role="menuitem">
           <a href="">South America</a>
         </li>
-        <li class="menu__item">
+        <li class="menu__item" role="menuitem">
           <a href="">What's next</a>
         </li>
       </ul>
     </li>
     <li class="menu__item">
-      <a href="">Netcentric Events</a>
-      <ul class="menu__items">
-        <li class="menu__item">
+      <a href="#" aria-expanded="true" onclick="document.getElementById('menu_events').style.display='block'" aria-controls="menu_events">Netcentric Events</a>
+      <ul class="menu__items" role="menu" id="menu_events">
+        <li class="menu__item" tabindex="-1">
           <a href="">Sailing Trip</a>
           <ul class="menu__items">
-            <li class="menu__item">
+            <li class="menu__item" tabindex="-1">
               <a href="">The different seas</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" tabindex="-1">
               <a href="">On Shore activities</a>
             </li>
           </ul>
@@ -115,7 +115,7 @@
       </ul>
     </li>
   </ul>
-</div>
+</nav>
 </div>
 <div class="container page__base">
   <div class="shop__base page__component" id="section-shop">
@@ -265,6 +265,7 @@
 </div>
 <script src="components/header/header.js"></script>
 <script src="components/shop/shop.js"></script>
+<script src="components/menu/menu.js"></script>
 <script src="components/shoppingcart/shoppingcart.model.js"></script>
 <script src="components/shoppingcart/shoppingcart.js"></script>
 <script src="components/footer/footer.js"></script>
